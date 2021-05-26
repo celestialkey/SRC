@@ -18,7 +18,6 @@ I> Đã hoàn thành:
 - Fix hiển thị đúng số lượng người trên server.
 - Edit hiển thị tên map ngoài lobby.
 - Edit thêm hiển thị tên qtv.
-- Fix kill cam.
 - Fix checkbox remember password, auto chọn server.
 - Fix server mode: clan.
 - Edit cuối xuống nhân vật không bị mờ.
