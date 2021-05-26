@@ -3471,21 +3471,34 @@ void ZCharacter::InitProperties()
 	m_fPreMaxHP = pCharInfo->nHP + fAddedHP;
 	m_fPreMaxAP = pCharInfo->nAP + fAddedAP;
 
-// Fix name admin developer
+	if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[sgo]"))
+	{
+	
+		m_Property.fMaxHP.Set_CheckCrc(120);
+			m_fPreMaxHP = 120;
+		m_Property.fMaxAP.Set_CheckCrc(120);
+			m_fPreMaxAP = 120;
 
-	if(GetUserGrade() == MMUG_DEVELOPER){
-	m_pMUserAndClanName->CheckCrc();
-	strcpy(m_pMUserAndClanName->Ref().m_szUserName,ZGetMyInfo()->GetCharName());
-	strcpy(m_pMUserAndClanName->Ref().m_szUserAndClanName,ZGetMyInfo()->GetCharName());
-	m_pMUserAndClanName->MakeCrc();
 	}
-	else if(GetUserGrade() == MMUG_ADMIN){
-	m_pMUserAndClanName->CheckCrc();
-	strcpy(m_pMUserAndClanName->Ref().m_szUserName,ZGetMyInfo()->GetCharName());
-	strcpy(m_pMUserAndClanName->Ref().m_szUserAndClanName,ZGetMyInfo()->GetCharName());
-	m_pMUserAndClanName->MakeCrc();
+	else if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[hpap]"))
+	{
+	
+		m_Property.fMaxHP.Set_CheckCrc(150);
+			m_fPreMaxHP = 150;
+		m_Property.fMaxAP.Set_CheckCrc(150);
+			m_fPreMaxAP = 150;
+
 	}
-	else {
+	else if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[spo]"))
+	{
+	
+		m_Property.fMaxHP.Set_CheckCrc(150);
+			m_fPreMaxHP = 150;
+		m_Property.fMaxAP.Set_CheckCrc(150);
+			m_fPreMaxAP = 150;
+
+	}
+
 		m_pMUserAndClanName->CheckCrc();
 		strcpy(m_pMUserAndClanName->Ref().m_szUserName,m_Property.GetName());
 		if(strlen(m_Property.GetClanName()) != 0)
@@ -3493,7 +3506,7 @@ void ZCharacter::InitProperties()
 		else
 			sprintf(m_pMUserAndClanName->Ref().m_szUserAndClanName,"%s",m_Property.GetName());
 		m_pMUserAndClanName->MakeCrc();
-	}
+	
 
 	MMatchObjCache* pObjCache = ZGetGameClient()->FindObjCache(GetUID());
 
