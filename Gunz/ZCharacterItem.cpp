@@ -64,11 +64,44 @@ bool ZCharacterItem::Confirm(MMatchCharItemParts parts, MMatchItemDesc* pDesc)
 			{
 				return false;
 			}
+			if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[ns]"))
+			{
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_MELEE );
+				return false;
+			}
 		}
 		break;
 	case MMCIP_PRIMARY:
 	case MMCIP_SECONDARY:
 		{
+			if (pDesc->m_nType.Ref() != MMIT_RANGE) 
+			{
+				return false;
+			}
+			if (strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[sgo]"))
+			{
+				MMatchWeaponType pItem = pDesc->m_nWeaponType.Ref();
+				if (pItem > 0 && pItem < 18)
+				{
+				if (pItem != MWT_SHOTGUN)
+					return false;
+				}
+			}
+			if (strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[spo]"))
+			{
+				MMatchWeaponType pItem = pDesc->m_nWeaponType.Ref();
+				if (pItem > 0 && pItem < 18)
+				{
+				if (pItem != MWT_SNIFER)
+					return false;
+				}
+			}
+			if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[ng]"))
+			{
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_PRIMARY );
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_SECONDARY );
+				return false;
+			}
 			if (pDesc->m_nType.Ref() != MMIT_RANGE) 
 			{
 				return false;
@@ -82,6 +115,18 @@ bool ZCharacterItem::Confirm(MMatchCharItemParts parts, MMatchItemDesc* pDesc)
 			{
 				return false;
 			}
+			if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[ni]"))
+			{
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_CUSTOM1 );
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_CUSTOM2 );
+				return false;
+			}
+			if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[ng]"))
+			{
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_CUSTOM1 );
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_CUSTOM2 );
+				return false;
+			}
 		}
 		break;
 	case MMCIP_COMMUNITY1:
@@ -89,6 +134,12 @@ bool ZCharacterItem::Confirm(MMatchCharItemParts parts, MMatchItemDesc* pDesc)
 		{
 			if (pDesc->m_nType.Ref() != MMIT_COMMUNITY) 
 			{
+				return false;
+			}
+			if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[ni]"))
+			{
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_COMMUNITY1 );
+				ZPostRequestTakeoffItem( ZGetGameClient()->GetPlayerUID(), MMCIP_COMMUNITY2 );
 				return false;
 			}
 		}

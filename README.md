@@ -21,7 +21,7 @@ I> Đã hoàn thành:
 - Fix checkbox remember password, auto chọn server.
 - Fix server mode: clan.
 - Edit cuối xuống nhân vật không bị mờ.
-- Edit tag [name], [ia], [hpap].
+- Edit tag [name] = ESP, [ia] = infinite ammo, [hpap] = 150HP/150AP, [sgo] = 120HP/120AP, [spo] = 150HP/150HP, [ns] = no sword, [ni] = no item, [ng] = no gun,....
 - Ctrl F, G hiển thị hpap, fps.
 - Ẩn mode survival.
 - Fix limit item.
@@ -33,8 +33,7 @@ I> Đã hoàn thành:
 
 II> Chưa hoàn thành hoặc bugs:
 
-- Tag [spo], [sgo],... và một số tag room khác chưa add và chưa hoàn thành code.
-- Tag [r] (không reload) không hoạt động.
+- Tag [r] (không reload) không hoạt động. Còn 1 số tag room chưa add.
 - Chưa add thêm bất cứ command nào mới.
 - Chưa fix tâm sniper.
 - Đã add xong các grade. Vẫn lỗi hiển thị tên ở lobby và phòng chờ trước khi vào game.

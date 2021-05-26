@@ -3471,32 +3471,52 @@ void ZCharacter::InitProperties()
 	m_fPreMaxHP = pCharInfo->nHP + fAddedHP;
 	m_fPreMaxAP = pCharInfo->nAP + fAddedAP;
 
-	if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[sgo]"))
+	if( ZGetGameClient()->GetMatchStageSetting()->GetGameType() == MMATCH_GAMETYPE_DUEL && strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[sgo]"))
 	{
-	
 		m_Property.fMaxHP.Set_CheckCrc(120);
 			m_fPreMaxHP = 120;
 		m_Property.fMaxAP.Set_CheckCrc(120);
 			m_fPreMaxAP = 120;
-
 	}
+
+	else if( ZGetGameClient()->GetMatchStageSetting()->GetGameType() == MMATCH_GAMETYPE_DEATHMATCH_TEAM && strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[sgo]"))
+	{
+		m_Property.fMaxHP.Set_CheckCrc(120);
+			m_fPreMaxHP = 120;
+		m_Property.fMaxAP.Set_CheckCrc(120);
+			m_fPreMaxAP = 120;
+	}
+
+	else if( ZGetGameClient()->GetMatchStageSetting()->GetGameType() == MMATCH_GAMETYPE_DUEL && strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[spo]"))
+	{
+		m_Property.fMaxHP.Set_CheckCrc(150);
+			m_fPreMaxHP = 150;
+		m_Property.fMaxAP.Set_CheckCrc(150);
+			m_fPreMaxAP = 150;
+	}
+
+	else if( ZGetGameClient()->GetMatchStageSetting()->GetGameType() == MMATCH_GAMETYPE_DEATHMATCH_TEAM && strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[spo]"))
+	{
+		m_Property.fMaxHP.Set_CheckCrc(150);
+			m_fPreMaxHP = 150;
+		m_Property.fMaxAP.Set_CheckCrc(150);
+			m_fPreMaxAP = 150;
+	}
+
 	else if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[hpap]"))
 	{
-	
 		m_Property.fMaxHP.Set_CheckCrc(150);
 			m_fPreMaxHP = 150;
 		m_Property.fMaxAP.Set_CheckCrc(150);
 			m_fPreMaxAP = 150;
-
 	}
-	else if(strstr(strlwr((char*)ZGetGameClient()->GetStageName()), "[spo]"))
+
+	else if(ZGetGameClient()->IsLadderGame())
 	{
-	
 		m_Property.fMaxHP.Set_CheckCrc(150);
 			m_fPreMaxHP = 150;
 		m_Property.fMaxAP.Set_CheckCrc(150);
 			m_fPreMaxAP = 150;
-
 	}
 
 		m_pMUserAndClanName->CheckCrc();
