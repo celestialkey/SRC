@@ -4,6 +4,7 @@
 
 * Visual Studio 2019 withATL/MFC support. You can download the free Community edition at https://www.visualstudio.com/downloads/. In the installer, select the "Desktop development with C++," and on the right under "Summary," select "MFC and ATL support (x86 and x64)." Picture here).
 * TODO'S
+
 I> Đã hoàn thành:
 
 - Fix toggle, fix resolution, màn hình rộng.
