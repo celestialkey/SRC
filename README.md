@@ -1,6 +1,6 @@
-# DevGunz2021
+# Dev Gunz 2021
 
-* This server build with SRC Base 2019 https://github.com/ZER0NIS/Gunz-Base
+* Use SRC Base 2019 https://github.com/ZER0NIS/Gunz-Base
 
 * Visual Studio 2019 withATL/MFC support. You can download the free Community edition at https://www.visualstudio.com/downloads/. In the installer, select the "Desktop development with C++," and on the right under "Summary," select "MFC and ATL support (x86 and x64)." Picture here).
 * Build with USA_Release_Publish
