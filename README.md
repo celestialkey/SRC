@@ -29,6 +29,8 @@ I> Đã hoàn thành:
 - Đăng nhập vào thẳng màn hình nhân vật.
 - Edit hiển thị duel match map chỉ khi map.xml bOnlyDuelMap = "true"> được set.
 - Fix Limit FPS. 
+- Fix shop jump.
+- Remove camera scroll for staff
 
 
 II> Chưa hoàn thành hoặc bugs:
