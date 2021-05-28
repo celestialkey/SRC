@@ -1,12 +1,16 @@
-# Dev Gunz 2021
+# Building GunZ SRC
+Use SRC Base 2019 https://github.com/ZER0NIS/Gunz-Base and updated, edit, custom by Century VN.
 
-* Use SRC Base 2019 https://github.com/ZER0NIS/Gunz-Base
+## Windows:
+Requisites:
 
 * Visual Studio 2019 withATL/MFC support. You can download the free Community edition at https://www.visualstudio.com/downloads/. In the installer, select the "Desktop development with C++," and on the right under "Summary," select "MFC and ATL support (x86 and x64)." Picture here).
 * Build with USA_Release_Publish
-* TODO'S
 
-++ I> Đã hoàn thành:
+
+### TODO'S
+
+I> Đã hoàn thành:
 
 - Fix toggle, fix resolution, màn hình rộng.
 - Edit mở rộng thêm ô Custom I, II ... trong phần option > video..
@@ -33,7 +37,7 @@
 - Remove camera scroll for staff
 
 
-++ II> Chưa hoàn thành hoặc bugs:
+II> Chưa hoàn thành hoặc bugs:
 
 - Tag [r] (không reload) không hoạt động. Còn 1 số tag room chưa add.
 - Chưa add thêm bất cứ command nào mới.
