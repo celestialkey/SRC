@@ -1,6 +1,6 @@
 # Building GunZ SRC
-Use SRC Base 2019 https://github.com/ZER0NIS/Gunz-Base and updated, edit, custom by Century VN.
-[Client] [https://drive.google.com/file/d/1cacpZVDCj_dhlwLQy8iBXVyojYUJPOqA/view?usp=sharing]
+	-Use SRC Base 2019 https://github.com/ZER0NIS/Gunz-Base and updated, edit, custom by Century VN.
+	-[Client] [https://drive.google.com/file/d/1cacpZVDCj_dhlwLQy8iBXVyojYUJPOqA/view?usp=sharing]
 
 ## Windows:
 Requisites:
