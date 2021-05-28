@@ -16,8 +16,8 @@ Requisites:
 	- Edit Custom I, II ... Option -> Video
 	- Edit people in room (1,2,4,6,8,10,12,14,16).
 	- Edit check box show hpap, exp, fullscreen.
-	- Edit Taunt commands working after round is over, fix spawn the duel.
-	- Fix Optimize windowed mode fps.
+	- Edit taunt commands working after round is over, fix spawn the duel.
+	- Fix optimize windowed mode fps.
 	- Fix hell climb.
 	- Fix show true online user.
 	- Edit show map name in roomlist.
@@ -29,18 +29,19 @@ Requisites:
 	- Ctrl F, G to show hpap, fps.
 	- Edit hide mode survival.
 	- Fix limit item.
-	- Fix Team Deathmatch and Team games with solo game spawns.
+	- Fix team Deathmatch and team games with solo game spawns.
 	- Edit login to character.
 	- Edit show duel match map only map.xml `<bOnlyDuelMap = "true">`.
-	- Fix Limit FPS. 
+	- Fix limit FPS. 
 	- Fix shop jump.
 	- Remove camera scroll for staff
 
 
 * Undone, bug, ...
-	- Tag [r] (no reload) notwork. Some tag room not add now.
+	- Tag [r] (no reload) not work. Some tag room not add now.
 	- Not add new command.
 	- Not fix right click sniper.
 	- Add new grade Vip 1 - 15 done. Bug show name (when it vip, admin,...) in lobby and wait room.
 	- Not show shop in wait room.
 	- DB clean not fix. only edit more VIP.
+	And more....
