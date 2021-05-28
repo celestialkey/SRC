@@ -8,7 +8,7 @@ Requisites:
 
 ## Build
 * Build with USA_Release_Publish.
-* Search // Edit or // Fix to see all my updated.
+* Search around SRC `// Edit` or `// Fix` to see all my updated.
 
 ### TODO'S
 * Done
