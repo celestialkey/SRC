@@ -10,9 +10,9 @@ Requisites:
 
 ### TODO'S
 
-I> Đã hoàn thành:
+* Done:
 
-- Fix toggle, fix resolution, màn hình rộng.
+	- Fix toggle, fix resolution, màn hình rộng.
 - Edit mở rộng thêm ô Custom I, II ... trong phần option > video..
 - Edit lại số lượng người tham gia phòng và thời gian trận đấu.
 - Thêm check box show hpap, exp, fullscreen.
@@ -37,7 +37,7 @@ I> Đã hoàn thành:
 - Remove camera scroll for staff
 
 
-II> Chưa hoàn thành hoặc bugs:
+* Unfinished, bug, ...:
 
 - Tag [r] (không reload) không hoạt động. Còn 1 số tag room chưa add.
 - Chưa add thêm bất cứ command nào mới.
