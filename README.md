@@ -5,7 +5,8 @@
 ## Windows:
 Requisites:
 
-* Visual Studio 2019 withATL/MFC support. You can download the free Community edition at https://www.visualstudio.com/downloads/. In the installer, select the "Desktop development with C++," and on the right under "Summary," select "MFC and ATL support (x86 and x64)." Picture here).
+* Visual Studio 2019 withATL/MFC support. You can download the free Community edition at https://www.visualstudio.com/downloads/. 
+	- In the installer, select the "Desktop development with C++," and on the right under "Summary," select "MFC and ATL support (x86 and x64)." [Picture here](https://i.imgur.com/BqXoiXu.png)).
 
 ## Build
 * Build with `USA_Release_Publish`.
@@ -46,3 +47,7 @@ Requisites:
 	- Not show shop in wait room.
 	- DB clean not fix. only edit more VIP.
 	And more....
+	
+# Contact me:
+- Discord: ๖ۣۜCentury ♋#5490
+- FB: fb.com/tinblake
