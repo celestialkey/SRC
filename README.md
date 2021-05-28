@@ -50,4 +50,3 @@ Requisites:
 	
 # Contact me:
 - Discord: ๖ۣۜCentury ♋#5490
-- [FaceBook](fb.com/tinblake)
