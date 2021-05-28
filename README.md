@@ -18,6 +18,7 @@ Requisites:
 	- Fix toggle screen, resolution, widescreen....
 	- Edit Custom I, II ... Option -> Video
 	- Edit people in room (1,2,4,6,8,10,12,14,16).
+	- Edit round time limit .
 	- Edit check box show hpap, exp, fullscreen.
 	- Edit taunt commands working after round is over, fix spawn the duel.
 	- Fix optimize windowed mode fps.
@@ -32,11 +33,12 @@ Requisites:
 	- Ctrl F, G to show hp/ap, fps.
 	- Fix limit item.
 	- Fix team Deathmatch and team games with solo game spawns.
-	- Edit login to character.
+	- Edit Instead of going down from the sky to the train stop where your character shows up.
 	- Edit show duel match map only map.xml `<bOnlyDuelMap = "true">`.
 	- Fix limit FPS. 
 	- Fix shop jump.
-	- Remove camera scroll for staff
+	- Remove camera scroll for staff.
+	- Add more information weapons (delay, dmg).
 
 
 ### Undone, bug, ...
