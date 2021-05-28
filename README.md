@@ -28,9 +28,8 @@ Requisites:
 	- Fix checkbox remember password, auto select server.
 	- Fix server mode: clan.
 	- Edit character visibilty.
-	- Edit tag [name] = ESP, [ia] = infinite ammo, [hpap] = 150HP/150AP, [sgo] = 120HP/120AP, [spo] = 150HP/150HP, [ns] = no sword, [ni] = no item, [ng] = no gun,....
-	- Ctrl F, G to show hpap, fps.
-	- Edit hide mode survival.
+	- Edit tag room [name] = ESP, [ia] = infinite ammo, [hpap] = 150HP/150AP, [sgo] = 120HP/120AP, [spo] = 150HP/150HP, [ns] = no sword, [ni] = no item, [ng] = no gun,....
+	- Ctrl F, G to show hp/ap, fps.
 	- Fix limit item.
 	- Fix team Deathmatch and team games with solo game spawns.
 	- Edit login to character.
@@ -41,6 +40,7 @@ Requisites:
 
 
 ### Undone, bug, ...
+	- Edit hide mode survival (because survival map get while map -> i'll fix later).
 	- Tag [r] (no reload) not work. Some tag room not add now.
 	- Not add new command.
 	- Not fix right click sniper.
