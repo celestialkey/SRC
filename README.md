@@ -11,8 +11,8 @@ Requisites:
 * Build with `USA_Release_Publish`.
 * Search around SRC `// Edit` or `// Fix` to see all my updated.
 
-### TODO'S
-* Done
+# TODO'S
+### Done
 	- Fix toggle screen, resolution, widescreen....
 	- Edit Custom I, II ... Option -> Video
 	- Edit people in room (1,2,4,6,8,10,12,14,16).
@@ -38,7 +38,7 @@ Requisites:
 	- Remove camera scroll for staff
 
 
-* Undone, bug, ...
+### Undone, bug, ...
 	- Tag [r] (no reload) not work. Some tag room not add now.
 	- Not add new command.
 	- Not fix right click sniper.
