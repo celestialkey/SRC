@@ -1,5 +1,6 @@
 # Building GunZ SRC
 Use SRC Base 2019 https://github.com/ZER0NIS/Gunz-Base and updated, edit, custom by Century VN.
+[Client] [https://drive.google.com/file/d/1cacpZVDCj_dhlwLQy8iBXVyojYUJPOqA/view?usp=sharing]
 
 ## Windows:
 Requisites:
@@ -7,8 +8,8 @@ Requisites:
 * Visual Studio 2019 withATL/MFC support. You can download the free Community edition at https://www.visualstudio.com/downloads/. In the installer, select the "Desktop development with C++," and on the right under "Summary," select "MFC and ATL support (x86 and x64)." Picture here).
 
 ## Build
-* Build with USA_Release_Publish.
-* Search around SRC `// Edit` or `// Fix` to see all my updated.
+Build with USA_Release_Publish.
+Search around SRC `// Edit` or `// Fix` to see all my updated.
 
 ### TODO'S
 * Done
