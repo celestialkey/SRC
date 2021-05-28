@@ -29,16 +29,16 @@ Requisites:
 	- Fix limit item.
 	- Fix Team Deathmatch and Team games with solo game spawns.
 	- Edit login to character.
-	- Edit show duel match map only map.xml `bOnlyDuelMap = "true">`.
+	- Edit show duel match map only map.xml `<bOnlyDuelMap = "true">`.
 	- Fix Limit FPS. 
 	- Fix shop jump.
 	- Remove camera scroll for staff
 
 
 * Undone, bug, ...
-	- Tag [r] (không reload) không hoạt động. Còn 1 số tag room chưa add.
-	- Chưa add thêm bất cứ command nào mới.
-	- Chưa fix tâm sniper.
-	- Đã add xong các grade. Vẫn lỗi hiển thị tên ở lobby và phòng chờ trước khi vào game.
-	- Không hiển thị shop trong phòng chờ game.
-	- DB clean chưa fix gì trong đó. Chỉ mới add Grade đầy đủ.
+	- Tag [r] (no reload) notwork. Some tag room not add now.
+	- Not add new command.
+	- Not fix right click sniper.
+	- Add new grade Vip 1 - 15 done. Bug show name (when it vip, admin,...) in lobby and wait room.
+	- Not show shop in wait room.
+	- DB clean not fix. only edit more VIP.
